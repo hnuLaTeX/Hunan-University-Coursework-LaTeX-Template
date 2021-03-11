@@ -1,0 +1,38 @@
+%这里是湖南大学课程设计\LaTeX模板，版本1.0，适用于老师可接受PDF格式的论文，字体大小及样式可自行修改！
+%请使用texlive 2020及以上版本使用xelatex引擎编译此模板！
+%使用本模板出现的课程打分问题本人概不负责！
+%欢迎各位使用本模板的同学与我多多交流，E-mail:hnuzyx@outlook.com
+\documentclass{hnureport}
+\major{自动化}
+\name{张宇熙}
+\title{matlab程序设计}
+\stuid{20190703\LaTeX}
+\college{电气与信息工程学院}
+\date{\zhtoday}
+\expname{有限差分法解N-S方程}%课程作业/报告的题目
+\course{现代PDE理论}%课程名称
+\teacher{Cauchy}
+
+\renewcommand{\abstractname}{\large 摘要\\}%重定义摘要二字的大小
+\begin{document}
+
+\makecover  %生成封面
+
+\input{abstract.tex}%摘要
+
+\thispagestyle{empty}
+\tableofcontents
+\newpage 
+\setcounter{page}{1}
+
+\input{experiment.tex}
+
+\input{conclusion.tex}
+
+\input{reference.tex}
+
+\appendix
+
+\input{appendix.tex}
+
+\end{document}
