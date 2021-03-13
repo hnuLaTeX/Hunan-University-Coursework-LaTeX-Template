@@ -1,3 +1,4 @@
+%%%%%%%%%%湖南大学%%%%%%%%%%%%
 \ProvidesClass{HNUreport}
 \LoadClass[a4paper,12pt]{ctexart}
 \RequirePackage{graphicx}
@@ -21,11 +22,10 @@
 \usepackage{xcolor-patch}
 \setlength{\absleftindent}{0pt}
 \setlength{\absrightindent}{0pt}
-% \setmainfont{texgyrepagella-regular.otf} 
 \setmainfont{Times New Roman}
 \bibliographystyle{IEEEtran}
 
-%\geometry{top=2.54cm,bottom=2.54cm,left=3.18cm,right=3.18cm}%与word中A4默认页边距保持一致
+%\geometry{top=2.54cm,bottom=2.54cm,left=3.18cm,right=3.18cm}%与word中A4默认页边距保持一致   %自选
 
 % 信息
 \newcommand\major[1]{\def\@major{#1}}
@@ -38,10 +38,12 @@
 \newcommand\teacher[1]{\def\@teacher{#1}}
 
 %页眉页脚
-\pagestyle{plain}%fancy
+\pagestyle{plain}
+%fancy
 %\fancyhead[L]{\@name}
 %\fancyhead[C]{\@expname}
 %\fancyhead[R]{\@stuid}
+
 %代码lst的rgb设置
 
 \lstset{
